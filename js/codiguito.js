@@ -27,5 +27,5 @@ function cambiarColor (datos)
 {
 	var col = datos.currentTarget.id;
 	$("#cochecito img").attr("src", "img/c"+ col +".jpg");
-	$('#cochecito figcaption ul li:first').html("<strong>Color: </strong>"+ col);
+	$('#cochecito figcaption ul li:first').html("<strong>Color: </strong>"+ col).addClass("capitalize");
 }
